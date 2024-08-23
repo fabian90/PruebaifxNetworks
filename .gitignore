@@ -1,0 +1,36 @@
+@"
+# Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vs
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bin/
+obj/
+
+# Visual Studio Code
+.vscode/
+
+# ASP.NET
+wwwroot/
+node_modules/
+*.db
+*.pdb
+*.scc
+*.sql
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+
+# Other
+*.log
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding utf8 -FilePath .gitignore
